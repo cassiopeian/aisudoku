@@ -73,3 +73,19 @@ footer {
     color: rgb(245, 245, 245);
     margin: 0;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 415px) {
+    /* GRID */
+    
+    #main-grid {
+        width: 350px;
+        height: 350px;
+        margin: 1rem auto;
+        padding: 10px;
+    }
+    .subgrid div {
+        padding: 0;
+    }
+}
