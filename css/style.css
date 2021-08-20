@@ -18,7 +18,7 @@ body {
     padding: 0;
 }
 
-/* MAIN */
+/* HEADER */
 
 header p {
     font-family: tomarik-extrovert, sans-serif;
@@ -28,6 +28,9 @@ header p {
     color: rgb(124, 151, 177);
     margin: 1rem 2rem;
 }
+
+/* MAIN */
+
 #main-grid,
 .subgrid {
     display: grid;
