@@ -35,6 +35,9 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* PANELS */
+
 #panels {
     width: 440px;
 }
@@ -46,6 +49,9 @@ h1 {
     font-family: tomarik-poster, sans-serif;
     font-size: 1.1rem;
 }
+
+/* GRID */
+
 #main-grid,
 .subgrid {
     display: grid;
