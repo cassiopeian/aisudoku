@@ -35,6 +35,9 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+#panels {
+    width: 440px;
+}
 h1 {
     font-family: 'Jua', sans-serif;
     font-weight: 400;
@@ -59,7 +62,7 @@ h1 {
     align-content: center;
     width: 600px;
     height: 600px;
-    margin: 1rem auto 3rem;
+    margin-bottom: 3rem;
     padding: 15px;
     background-color: rgb(53, 66, 93);
 }
