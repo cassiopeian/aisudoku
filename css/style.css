@@ -49,6 +49,10 @@ h1 {
     font-family: tomarik-poster, sans-serif;
     font-size: 1.1rem;
 }
+.game-pieces {
+    height: 100px;
+    margin: 20px;
+}
 
 /* GRID */
 
