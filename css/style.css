@@ -38,6 +38,11 @@ main {
 
 /* PANELS */
 
+#selections {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 #panels {
     width: 440px;
 }
