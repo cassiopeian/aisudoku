@@ -38,11 +38,6 @@ main {
 
 /* PANELS */
 
-#selections {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 #panels {
     width: 440px;
 }
@@ -53,6 +48,11 @@ h1 {
 #rules p {
     font-family: tomarik-poster, sans-serif;
     font-size: 1.1rem;
+}
+#selections {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .game-pieces {
     height: 100px;
