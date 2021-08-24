@@ -55,6 +55,13 @@ h1 {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 20px;
+}
 .game-pieces {
     height: 100px;
 }
