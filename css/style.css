@@ -102,6 +102,7 @@ figure {
 .aisu-cube {
     height: 30px;
     opacity: .65;
+    cursor: pointer;
 }
 @media (hover:hover) {
     .aisu-cube:hover {
