@@ -103,6 +103,11 @@ figure {
     height: 30px;
     opacity: .65;
 }
+@media (hover:hover) {
+    .aisu-cube:hover {
+        opacity: 1;
+    }
+}
 
 /* FOOTER */
 
