@@ -101,6 +101,7 @@ figure {
 }
 .aisu-cube {
     height: 30px;
+    opacity: .65;
 }
 
 /* FOOTER */
