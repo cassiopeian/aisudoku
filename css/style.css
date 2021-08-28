@@ -64,6 +64,7 @@ figure {
 }
 .game-pieces {
     height: 100px;
+    cursor: pointer;
 }
 
 /* GRID */
