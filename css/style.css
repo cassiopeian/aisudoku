@@ -110,6 +110,9 @@ figure {
         opacity: 1;
     }
 }
+.active {
+    background-color: rgb(82, 106, 156) !important;
+}
 
 /* FOOTER */
 
