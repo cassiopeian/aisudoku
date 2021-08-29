@@ -17,7 +17,7 @@ $(document).ready(function() {
         // if any grid cell is selected/active
         if ($('div').hasClass('active') == true) {
             // replace the active div's child img w/ the game piece
-            $('.active').children().attr('src', `${gamePiece}`).css('opacity', '1');
+            $('.active').children().attr('src', `${gamePiece}`).css({'opacity': '1', 'height': '40px'});
 
             // ensure the active class only ever applies to one cell
             $('.active').removeClass('active');
