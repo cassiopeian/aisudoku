@@ -1,7 +1,13 @@
 $(document).ready(function() {
     $('.aisu-cube').on('click', function() {
-        // set the selected cell's background blue
-        $(this).parent().addClass('active');
+        // if the parent div is already active
+        if ($(this).parent().hasClass('active')) {
+            // remove the active class
+            $(this).parent().removeClass('active');
+        } else {
+            // set the selected cell's background blue
+            $(this).parent().addClass('active');
+        }
     });
 
     $('.game-pieces').on('click', function() {
