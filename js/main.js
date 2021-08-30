@@ -19,8 +19,8 @@ $(document).ready(function() {
             // replace the active div's child img w/ the game piece
             $('.active').children().attr('src', `${gamePiece}`).css({'opacity': '1', 'height': '40px'});
 
-            // ensure the active class only ever applies to one cell
-            $('.active').removeClass('active');
+            // tag the cube as populated and strip its active status 
+            $('.active').addClass('no-aisu').removeClass('active');
         }
     });
 });
