@@ -130,17 +130,17 @@ footer {
 @media only screen and (max-width: 415px) {
     /* MAIN */
 
-   main {
-       flex-flow: column;
-   }
+    main {
+        flex-flow: column;
+    }
 
-   /* PANELS */
+    /* PANELS */
 
-   #panels {
-       width: 85%;
-       margin: 0 auto;
-   }
-
+    #panels {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
     /* GRID */
     
     #main-grid {
