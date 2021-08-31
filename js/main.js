@@ -26,7 +26,7 @@ $(document).ready(function() {
         // if any grid cell is selected/active
         if ($('div').hasClass('active') == true) {
             // replace the active div's child img w/ the game piece
-            $('.active').children().attr('src', `${gamePiece}`).css({'opacity': '1', 'height': '40px'});
+            $('.active').children().attr('src', `${gamePiece}`).css({'opacity': '1', 'height': '66%'});
 
             // tag the cube as populated and strip its active status 
             $('.active').addClass('no-aisu').removeClass('active');
