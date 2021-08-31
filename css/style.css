@@ -143,6 +143,10 @@ footer {
     #selections {
         justify-content: space-between;
     }
+    figure {
+        width: fit-content;
+        margin: 5px;
+    }
 
     /* GRID */
     
