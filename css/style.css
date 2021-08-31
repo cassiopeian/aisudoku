@@ -133,6 +133,14 @@ footer {
    main {
        flex-flow: column;
    }
+
+   /* PANELS */
+
+   #panels {
+       width: 85%;
+       margin: 0 auto;
+   }
+
     /* GRID */
     
     #main-grid {
