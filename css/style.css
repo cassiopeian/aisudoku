@@ -140,7 +140,10 @@ footer {
         width: 85%;
         margin: 0 auto;
     }
-    
+    #selections {
+        justify-content: space-between;
+    }
+
     /* GRID */
     
     #main-grid {
