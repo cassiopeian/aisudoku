@@ -1,4 +1,13 @@
 $(document).ready(function() {
+    
+    $(window).on('resize', function() {
+        // get the total width of the main grid
+        let mainGridWidth = $('#main-grid').css('width');
+
+        // and set its height equal to its width 
+        $('#main-grid').css('height', mainGridWidth);
+    });
+
     $('.aisu-cube').on('click', function() {
         // if the parent div is already active
         if ($(this).parent().hasClass('active')) {
