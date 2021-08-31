@@ -79,8 +79,7 @@ figure {
     grid-gap: 5px;
     justify-content: center;
     align-content: center;
-    width: 600px;
-    height: 600px;
+    width: 40%;
     margin-bottom: 3rem;
     padding: 15px;
     background-color: rgb(53, 66, 93);
