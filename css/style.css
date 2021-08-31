@@ -129,6 +129,11 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 415px) {
+    /* MAIN */
+
+   main {
+       flex-flow: column;
+   }
     /* GRID */
     
     #main-grid {
