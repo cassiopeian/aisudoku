@@ -109,6 +109,10 @@ figure {
 .active {
     background-color: rgb(82, 106, 156) !important;
 }
+.populated-cell {
+    height: 66%;
+    cursor: not-allowed;
+}
 
 /* FOOTER */
 
