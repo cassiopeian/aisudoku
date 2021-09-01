@@ -12,6 +12,9 @@ $(document).ready(function() {
 
     $(window).on('resize', setGridHeight);
     
+    // set the populated cells apart from the others
+    $('.populated-cell').parent().css('backgroundColor', 'rgb(240, 248, 255)');
+
     $('.aisu-cube').on('click', function() {
         // if the parent div is already active
         if ($(this).parent().hasClass('active')) {
