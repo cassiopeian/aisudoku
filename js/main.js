@@ -1,11 +1,13 @@
 $(document).ready(function() {
     
     function setGridHeight() {
-        // get the total width of the main grid
+        // get the total width of a grid
         let mainGridWidth = $('#main-grid').css('width');
+        let dessertGridWidth = $('#selections').css('width');
     
         // and set its height equal to its width 
         $('#main-grid').css('height', mainGridWidth);
+        $('#selections').css('height', dessertGridWidth);
     };
     
     setGridHeight();
