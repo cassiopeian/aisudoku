@@ -49,6 +49,10 @@ h1 {
     font-family: tomarik-poster, sans-serif;
     font-size: 1.1rem;
 }
+.small-caps {
+    text-transform: uppercase;
+    color: rgb(156, 177, 196);
+}
 #selections {
     display: flex;
     align-items: center;
