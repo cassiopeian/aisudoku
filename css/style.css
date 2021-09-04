@@ -169,7 +169,7 @@ footer {
     
     #main-grid {
         width: 90%;
-        margin: 1rem auto;
+        margin: 1rem auto 2rem;
         padding: 10px;
     }
     .subgrid div {
