@@ -168,8 +168,7 @@ footer {
     /* GRID */
     
     #main-grid {
-        width: 350px;
-        height: 350px;
+        width: 90%;
         margin: 1rem auto;
         padding: 10px;
     }
