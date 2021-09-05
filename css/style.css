@@ -72,6 +72,22 @@ figure {
     height: 100%;
     cursor: pointer;
 }
+@-webkit-keyframes dessert-dance {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(5deg); filter: saturate(1.2);}
+    100% {transform: rotate(-5deg); filter: saturate(1.5);}
+}
+@keyframes dessert-dance {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(5deg); filter: saturate(1.2);}
+    100% {transform: rotate(-5deg); filter: saturate(1.5);}
+}
+.dessert-dance {
+    -webkit-animation-name: dessert-dance;
+    -webkit-animation-duration: .5s;
+    animation-name: dessert-dance;
+    animation-duration: .5s;
+}
 
 /* PUZZLE AREA */
 
