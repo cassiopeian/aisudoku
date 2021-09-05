@@ -183,6 +183,12 @@ footer {
         height: 40px;
     }
 
+    /* PUZZLE AREA */
+
+    #puzzle-area {
+        width: 100%;
+    }
+
     /* GRID */
     
     #main-grid {
