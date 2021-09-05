@@ -60,7 +60,8 @@ $(document).ready(function() {
     });
 
     function checkRowsAndColumns() {
-        const rowOne = []
+        const rowOne = [];
+        const rowTwo = [];
         
         // for each div in the .row-one class
         $('.row-one').each(function(i, element) {
@@ -68,6 +69,11 @@ $(document).ready(function() {
             rowOne.push($(this).children().attr('src'));
         });
 
+        $('.row-two').each(function(i, element) {
+            rowTwo.push($(this).children().attr('src'));
+        });
+
         console.log(rowOne);
+        console.log(rowTwo);
     };
 });
