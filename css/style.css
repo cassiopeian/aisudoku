@@ -78,6 +78,19 @@ figure {
 #puzzle-area {
     width: 40%;
 }
+#check-solution {
+    display: block;
+    font-family: tomarik-extrovert, sans-serif;
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: rgb(204, 245, 253);
+    background-color: rgb(53, 66, 93);
+    padding: .5rem 1.5rem;
+    margin: 1rem auto 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
 
 /* GRID */
 
