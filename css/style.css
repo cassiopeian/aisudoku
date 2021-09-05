@@ -73,6 +73,12 @@ figure {
     cursor: pointer;
 }
 
+/* PUZZLE AREA */
+
+#puzzle-area {
+    width: 40%;
+}
+
 /* GRID */
 
 #main-grid,
@@ -85,8 +91,7 @@ figure {
     grid-gap: 5px;
     justify-content: center;
     align-content: center;
-    width: 40%;
-    margin-bottom: 3rem;
+    width: 100%;
     padding: 15px;
     background-color: rgb(53, 66, 93);
 }
