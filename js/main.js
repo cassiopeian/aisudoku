@@ -90,4 +90,8 @@ $(document).ready(function() {
         console.log(rowTwo);
         console.log(rowThree);
     };
+
+    $('#check-solution').on('click', function() {
+        checkRowsAndColumns();
+    });
 });
