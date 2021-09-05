@@ -58,4 +58,16 @@ $(document).ready(function() {
             $(this).css('backgroundColor', white);
         }
     });
+
+    function checkRowsAndColumns() {
+        const rowOne = []
+        
+        // for each div in the .row-one class
+        $('.row-one').each(function(i, element) {
+            // push the element's nested img src into the rowOne array
+            rowOne.push($(this).children().attr('src'));
+        });
+
+        console.log(rowOne);
+    };
 });
