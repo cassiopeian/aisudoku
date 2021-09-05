@@ -70,18 +70,24 @@ $(document).ready(function() {
     function checkRowsAndColumns() {
         const rowOne = [];
         const rowTwo = [];
+        const rowThree = [];
         
         // for each div in the .row-one class
-        $('.row-one').each(function(i, element) {
+        $('.row-one').each(function() {
             // push the element's nested img src into the rowOne array
             rowOne.push($(this).children().attr('src'));
         });
 
-        $('.row-two').each(function(i, element) {
+        $('.row-two').each(function() {
             rowTwo.push($(this).children().attr('src'));
+        });
+
+        $('.row-three').each(function() {
+            rowThree.push($(this).children().attr('src'));
         });
 
         console.log(rowOne);
         console.log(rowTwo);
+        console.log(rowThree);
     };
 });
