@@ -31,6 +31,9 @@ $(document).ready(function() {
     $('.game-pieces').on('click', function() {
         // log the source of the selected game piece
         let gamePiece = $(this).attr('src');
+
+        // apply the dessert-dance keyframes animation
+        $(this).addClass('dessert-dance');
         
         // if any grid cell is selected/active
         if ($('div').hasClass('active') == true) {
@@ -41,6 +44,11 @@ $(document).ready(function() {
             $('.active').addClass('no-aisu').removeClass('active');
         }
     });
+
+    $('.game-pieces').on('animationend', function() {
+        // remove the animation, so it can be reapplied later
+        $(this).removeClass('dessert-dance');
+    }); 
     
     $('.subgrid div').on('click', function() {
         const green = 'rgb(224, 243, 237)';
