@@ -71,6 +71,9 @@ $(document).ready(function() {
         const rowOne = [];
         const rowTwo = [];
         const rowThree = [];
+        const columnOne = [];
+        const columnTwo = [];
+        const columnThree = [];
         
         // for each div in the .row-one class
         $('.row-one').each(function() {
@@ -86,9 +89,24 @@ $(document).ready(function() {
             rowThree.push($(this).children().attr('src'));
         });
 
+        $('.column-one').each(function() {
+            columnOne.push($(this).children().attr('src'));
+        });
+
+        $('.column-two').each(function() {
+            columnTwo.push($(this).children().attr('src'));
+        });
+
+        $('.column-three').each(function() {
+            columnThree.push($(this).children().attr('src'));
+        });
+
         console.log(rowOne);
         console.log(rowTwo);
         console.log(rowThree);
+        console.log(columnOne);
+        console.log(columnTwo);
+        console.log(columnThree);
     };
 
     $('#check-solution').on('click', function() {
