@@ -71,6 +71,9 @@ $(document).ready(function() {
         const rowOne = [];
         const rowTwo = [];
         const rowThree = [];
+        const rowFour = [];
+        const rowFive = [];
+        const rowSix = [];
         const columnOne = [];
         const columnTwo = [];
         const columnThree = [];
@@ -93,6 +96,18 @@ $(document).ready(function() {
 
         $('.row-three').each(function() {
             rowThree.push($(this).children().attr('src'));
+        });
+
+        $('.row-four').each(function() {
+            rowFour.push($(this).children().attr('src'));
+        });
+
+        $('.row-five').each(function() {
+            rowFive.push($(this).children().attr('src'));
+        });
+
+        $('.row-six').each(function() {
+            rowSix.push($(this).children().attr('src'));
         });
 
         $('.column-one').each(function() {
@@ -134,6 +149,9 @@ $(document).ready(function() {
         console.log(rowOne);
         console.log(rowTwo);
         console.log(rowThree);
+        console.log(rowFour);
+        console.log(rowFive);
+        console.log(rowSix);
         console.log(columnOne);
         console.log(columnTwo);
         console.log(columnThree);
