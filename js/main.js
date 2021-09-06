@@ -91,74 +91,92 @@ $(document).ready(function() {
         $('.row-one').each(function() {
             // push the element's nested img src into the rowOne array
             rowOne.push($(this).children().attr('src'));
+            rowOne.sort();
         });
 
         $('.row-two').each(function() {
             rowTwo.push($(this).children().attr('src'));
+            rowTwo.sort();
         });
 
         $('.row-three').each(function() {
             rowThree.push($(this).children().attr('src'));
+            rowThree.sort();
         });
 
         $('.row-four').each(function() {
             rowFour.push($(this).children().attr('src'));
+            rowFour.sort();
         });
 
         $('.row-five').each(function() {
             rowFive.push($(this).children().attr('src'));
+            rowFive.sort();
         });
 
         $('.row-six').each(function() {
             rowSix.push($(this).children().attr('src'));
+            rowSix.sort();
         });
 
         $('.row-seven').each(function() {
             rowSeven.push($(this).children().attr('src'));
+            rowSeven.sort();
         });
 
         $('.row-eight').each(function() {
             rowEight.push($(this).children().attr('src'));
+            rowEight.sort();
         });
 
         $('.row-nine').each(function() {
             rowNine.push($(this).children().attr('src'));
+            rowNine.sort();
         });
 
         $('.column-one').each(function() {
             columnOne.push($(this).children().attr('src'));
+            columnOne.sort();
         });
 
         $('.column-two').each(function() {
             columnTwo.push($(this).children().attr('src'));
+            columnTwo.sort();
         });
 
         $('.column-three').each(function() {
             columnThree.push($(this).children().attr('src'));
+            columnThree.sort();
         });
 
         $('.column-four').each(function() {
             columnFour.push($(this).children().attr('src'));
+            columnFour.sort();
         });
 
         $('.column-five').each(function() {
             columnFive.push($(this).children().attr('src'));
+            columnFive.sort();
         });
 
         $('.column-six').each(function() {
             columnSix.push($(this).children().attr('src'));
+            columnSix.sort();
         });
 
         $('.column-seven').each(function() {
             columnSeven.push($(this).children().attr('src'));
+            columnSeven.sort();
         });
 
         $('.column-eight').each(function() {
             columnEight.push($(this).children().attr('src'));
+            columnEight.sort();
         });
 
         $('.column-nine').each(function() {
             columnNine.push($(this).children().attr('src'));
+            columnNine.sort();
         });
 
         console.log(rowOne);
