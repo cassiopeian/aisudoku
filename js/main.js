@@ -86,6 +86,17 @@ $(document).ready(function() {
         const columnSeven = [];
         const columnEight = [];
         const columnNine = [];
+        const dessertOrder = [
+            'images/game-pieces/berry-gelato.svg', 
+            'images/game-pieces/chipwich-tower.svg', 
+            'images/game-pieces/cornetto.svg', 
+            'images/game-pieces/creamsicle.svg', 
+            'images/game-pieces/firecracker-pop.svg', 
+            'images/game-pieces/kiwimelon-pop.svg', 
+            'images/game-pieces/mango-sorbet.svg', 
+            'images/game-pieces/mint-choco.svg', 
+            'images/game-pieces/smoothie.svg'
+        ];
         
         // for each div in the .row-one class
         $('.row-one').each(function() {
