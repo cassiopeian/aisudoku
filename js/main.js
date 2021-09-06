@@ -77,6 +77,9 @@ $(document).ready(function() {
         const columnFour = [];
         const columnFive = [];
         const columnSix = [];
+        const columnSeven = [];
+        const columnEight = [];
+        const columnNine = [];
         
         // for each div in the .row-one class
         $('.row-one').each(function() {
@@ -116,6 +119,18 @@ $(document).ready(function() {
             columnSix.push($(this).children().attr('src'));
         });
 
+        $('.column-seven').each(function() {
+            columnSeven.push($(this).children().attr('src'));
+        });
+
+        $('.column-eight').each(function() {
+            columnEight.push($(this).children().attr('src'));
+        });
+
+        $('.column-nine').each(function() {
+            columnNine.push($(this).children().attr('src'));
+        });
+
         console.log(rowOne);
         console.log(rowTwo);
         console.log(rowThree);
@@ -125,6 +140,9 @@ $(document).ready(function() {
         console.log(columnFour);
         console.log(columnFive);
         console.log(columnSix);
+        console.log(columnSeven);
+        console.log(columnEight);
+        console.log(columnNine);
     };
 
     $('#check-solution').on('click', function() {
