@@ -1,3 +1,33 @@
+const dessertOrder = [
+    'images/game-pieces/berry-gelato.svg', 
+    'images/game-pieces/chipwich-tower.svg', 
+    'images/game-pieces/cornetto.svg', 
+    'images/game-pieces/creamsicle.svg', 
+    'images/game-pieces/firecracker-pop.svg', 
+    'images/game-pieces/kiwimelon-pop.svg', 
+    'images/game-pieces/mango-sorbet.svg', 
+    'images/game-pieces/mint-choco.svg', 
+    'images/game-pieces/smoothie.svg'
+];
+const rowOne = [];
+const rowTwo = [];
+const rowThree = [];
+const rowFour = [];
+const rowFive = [];
+const rowSix = [];
+const rowSeven = [];
+const rowEight = [];
+const rowNine = [];
+const columnOne = [];
+const columnTwo = [];
+const columnThree = [];
+const columnFour = [];
+const columnFive = [];
+const columnSix = [];
+const columnSeven = [];
+const columnEight = [];
+const columnNine = [];
+
 $(document).ready(function() {
     
     function setGridHeight() {
@@ -68,36 +98,6 @@ $(document).ready(function() {
     });
 
     function checkRowsAndColumns() {
-        const rowOne = [];
-        const rowTwo = [];
-        const rowThree = [];
-        const rowFour = [];
-        const rowFive = [];
-        const rowSix = [];
-        const rowSeven = [];
-        const rowEight = [];
-        const rowNine = [];
-        const columnOne = [];
-        const columnTwo = [];
-        const columnThree = [];
-        const columnFour = [];
-        const columnFive = [];
-        const columnSix = [];
-        const columnSeven = [];
-        const columnEight = [];
-        const columnNine = [];
-        const dessertOrder = [
-            'images/game-pieces/berry-gelato.svg', 
-            'images/game-pieces/chipwich-tower.svg', 
-            'images/game-pieces/cornetto.svg', 
-            'images/game-pieces/creamsicle.svg', 
-            'images/game-pieces/firecracker-pop.svg', 
-            'images/game-pieces/kiwimelon-pop.svg', 
-            'images/game-pieces/mango-sorbet.svg', 
-            'images/game-pieces/mint-choco.svg', 
-            'images/game-pieces/smoothie.svg'
-        ];
-        
         // for each div in the .row-one class
         $('.row-one').each(function() {
             // push the element's nested img src into the rowOne array
