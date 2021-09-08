@@ -210,6 +210,31 @@ $(document).ready(function() {
         console.log(columnNine);
     };
 
+    function compareArrays() {
+        if ((rowOne.toString() == dessertOrder) &&
+            (rowTwo.toString() == dessertOrder) &&
+            (rowThree.toString() == dessertOrder) &&
+            (rowFour.toString() == dessertOrder) &&
+            (rowFive.toString() == dessertOrder) &&
+            (rowSix.toString() == dessertOrder) &&
+            (rowSeven.toString() == dessertOrder) &&
+            (rowEight.toString() == dessertOrder) &&
+            (rowNine.toString() == dessertOrder) &&
+            (columnOne.toString() == dessertOrder) &&
+            (columnTwo.toString() == dessertOrder) &&
+            (columnThree.toString() == dessertOrder) &&
+            (columnFour.toString() == dessertOrder) &&
+            (columnFive.toString() == dessertOrder) &&
+            (columnSix.toString() == dessertOrder) &&
+            (columnSeven.toString() == dessertOrder) &&
+            (columnEight.toString() == dessertOrder) &&
+            (columnNine.toString() == dessertOrder)) {
+                alert(`Congrats! You won!`);
+        } else {
+            alert(`Hmm, something is not right. Check each square carefully.`);
+        }
+    };
+
     $('#check-solution').on('click', function() {
         checkRowsAndColumns();
     });
