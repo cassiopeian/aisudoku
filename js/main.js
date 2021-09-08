@@ -236,6 +236,18 @@ $(document).ready(function() {
     };
 
     $('#check-solution').on('click', function() {
+        const iceInGrid = $('img[src="images/aisu-cubes/aisu-cube.svg"]');
+
+        // populate the rows and columns arrays
         checkRowsAndColumns();
+
+        // if the grid still contains aisu-cube images 
+        if (iceInGrid.length > 0) {
+            // tell the user to complete the puzzle
+            alert(`Uh oh! There shouldn't be any ice cubes left! Try again.`);
+        } else if (iceInGrid.length == 0) {
+            // otherwise, check the user's work
+            compareArrays();
+        }
     });
 });
