@@ -172,6 +172,27 @@ figure {
     height: 100%;
     background-color: rgba(190, 227, 241, 0.5);
 }
+.popup {
+    position: relative;
+    background-color: rgb(253, 253, 253);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    -webkit-animation-name: drop-modal;
+    -webkit-animation-duration: 0.4s;
+    animation-name: drop-modal;
+    animation-duration: 0.4s;
+}
+@-webkit-keyframes drop-modal {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1;}
+}
+@keyframes drop-modal {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1;}
+}
 
 /* FOOTER */
 
