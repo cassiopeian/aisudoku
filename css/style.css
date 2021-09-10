@@ -19,6 +19,10 @@ body {
     margin: 0;
     padding: 0;
 }
+p {
+    font-family: tomarik-poster, sans-serif;
+    font-size: 1.1rem;
+}
 
 /* HEADER */
 
@@ -47,8 +51,7 @@ h1 {
     color: rgb(53, 66, 93);
 }
 #rules p {
-    font-family: tomarik-poster, sans-serif;
-    font-size: 1.1rem;
+    color: rgb(17, 15, 15);
 }
 .small-caps {
     text-transform: uppercase;
@@ -174,10 +177,8 @@ figure {
 }
 .popup {
     position: relative;
-    background-color: rgb(253, 253, 253);
     margin: auto;
     padding: 2rem;
-    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 50%;
     -webkit-animation-name: drop-modal;
