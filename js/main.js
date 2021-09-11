@@ -101,93 +101,75 @@ $(document).ready(function() {
         // for each div in the .row-one class
         $('.row-one').each(function() {
             // push the element's nested img src into the rowOne array
-            rowOne.push($(this).children().attr('src'));
-            rowOne.sort();
+            rowOne.sort().push($(this).children().attr('src'));
         });
 
         $('.row-two').each(function() {
-            rowTwo.push($(this).children().attr('src'));
-            rowTwo.sort();
+            rowTwo.sort().push($(this).children().attr('src'));
         });
 
         $('.row-three').each(function() {
-            rowThree.push($(this).children().attr('src'));
-            rowThree.sort();
+            rowThree.sort().push($(this).children().attr('src'));
         });
 
         $('.row-four').each(function() {
-            rowFour.push($(this).children().attr('src'));
-            rowFour.sort();
+            rowFour.sort().push($(this).children().attr('src'));
         });
 
         $('.row-five').each(function() {
-            rowFive.push($(this).children().attr('src'));
-            rowFive.sort();
+            rowFive.sort().push($(this).children().attr('src'));
         });
 
         $('.row-six').each(function() {
-            rowSix.push($(this).children().attr('src'));
-            rowSix.sort();
+            rowSix.sort().push($(this).children().attr('src'));
         });
 
         $('.row-seven').each(function() {
-            rowSeven.push($(this).children().attr('src'));
-            rowSeven.sort();
+            rowSeven.sort().push($(this).children().attr('src'));
         });
 
         $('.row-eight').each(function() {
-            rowEight.push($(this).children().attr('src'));
-            rowEight.sort();
+            rowEight.sort().push($(this).children().attr('src'));
         });
 
         $('.row-nine').each(function() {
-            rowNine.push($(this).children().attr('src'));
-            rowNine.sort();
+            rowNine.sort().push($(this).children().attr('src'));
         });
 
         $('.column-one').each(function() {
-            columnOne.push($(this).children().attr('src'));
-            columnOne.sort();
+            columnOne.sort().push($(this).children().attr('src'));
         });
 
         $('.column-two').each(function() {
-            columnTwo.push($(this).children().attr('src'));
-            columnTwo.sort();
+            columnTwo.sort().push($(this).children().attr('src'));
         });
 
         $('.column-three').each(function() {
-            columnThree.push($(this).children().attr('src'));
-            columnThree.sort();
+            columnThree.sort().push($(this).children().attr('src'));
         });
 
         $('.column-four').each(function() {
-            columnFour.push($(this).children().attr('src'));
-            columnFour.sort();
+            columnFour.sort().push($(this).children().attr('src'));
         });
 
         $('.column-five').each(function() {
-            columnFive.push($(this).children().attr('src'));
-            columnFive.sort();
+            columnFive.sort().push($(this).children().attr('src'));
         });
 
         $('.column-six').each(function() {
-            columnSix.push($(this).children().attr('src'));
-            columnSix.sort();
+            columnSix.sort().push($(this).children().attr('src'));
         });
 
         $('.column-seven').each(function() {
-            columnSeven.push($(this).children().attr('src'));
-            columnSeven.sort();
+            columnSeven.sort().push($(this).children().attr('src'));
         });
 
         $('.column-eight').each(function() {
-            columnEight.push($(this).children().attr('src'));
-            columnEight.sort();
+            columnEight.sort().push($(this).children().attr('src'));
         });
 
         $('.column-nine').each(function() {
-            columnNine.push($(this).children().attr('src'));
-            columnNine.sort();
+            columnNine.sort().push($(this).children().attr('src'));
         });
 
         console.log(rowOne);
