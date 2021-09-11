@@ -198,7 +198,7 @@ figure {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1;}
 }
-#wrong-solution img {
+.modal img {
     display: block;
     width: 30%;
     margin: 0 auto;
