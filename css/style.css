@@ -203,7 +203,7 @@ figure {
     width: 30%;
     margin: 0 auto;
 }
-#wrong-solution p {
+.modal p {
     text-align: center;
     color: rgb(180, 221, 228);
     margin: 2rem 0 2.5rem;
