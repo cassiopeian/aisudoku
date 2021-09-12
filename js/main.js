@@ -238,4 +238,9 @@ $(document).ready(function() {
         // close its modal box
         $(this).parents('section').hide();
     });
+
+    $('#start-over').on('click', function() {
+        // reload the page
+        location.reload(true);
+    });
 });
