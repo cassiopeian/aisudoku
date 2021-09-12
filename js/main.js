@@ -232,4 +232,10 @@ $(document).ready(function() {
             compareArrays();
         }
     });
+
+    // when a continue button is clicked
+    $('.continue').on('click', function() {
+        // close its modal box
+        $(this).parents('section').hide();
+    });
 });
