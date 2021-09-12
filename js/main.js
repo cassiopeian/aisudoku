@@ -213,7 +213,8 @@ $(document).ready(function() {
             (columnNine.toString() == dessertOrder)) {
                 alert(`Congrats! You won!`);
         } else {
-            alert(`Hmm, something is not right. Check each square carefully.`);
+            // tell users to keep trying or start over
+            $('#wrong-solution').show();
         }
     };
 
