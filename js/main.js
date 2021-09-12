@@ -226,7 +226,7 @@ $(document).ready(function() {
         // if the grid still contains aisu-cube images 
         if (iceInGrid.length > 0) {
             // tell the user to complete the puzzle
-            alert(`Uh oh! There shouldn't be any ice cubes left! Try again.`);
+            $('#incomplete-grid').show();
         } else if (iceInGrid.length == 0) {
             // otherwise, check the user's work
             compareArrays();
