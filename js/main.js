@@ -211,7 +211,8 @@ $(document).ready(function() {
             (columnSeven.toString() == dessertOrder) &&
             (columnEight.toString() == dessertOrder) &&
             (columnNine.toString() == dessertOrder)) {
-                alert(`Congrats! You won!`);
+                // tell users they've won
+                $('#winning-solution').show();
         } else {
             // tell users to keep trying or start over
             $('#wrong-solution').show();
