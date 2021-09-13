@@ -257,9 +257,9 @@ footer {
     #selections {
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        width: 75%;
         height: fit-content !important;
-        margin: 2rem auto 0;
+        margin: 2rem auto 1rem;
     }
     figure {
         width: fit-content;
@@ -288,6 +288,13 @@ footer {
 }
 
 @media only screen and (max-width: 415px) {
+
+    /* PANELS */
+
+    #selections {
+        width: 100%;
+        margin: 2rem auto 0;
+    }
 
     /* GRID */
 
