@@ -241,7 +241,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 1050px) {
     /* MAIN */
 
     main {
@@ -278,11 +278,20 @@ footer {
     /* GRID */
     
     #main-grid {
-        width: 90%;
+        width: 55%;
         margin: 1rem auto;
         padding: 10px;
     }
     .subgrid div {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+
+    /* GRID */
+
+    #main-grid {
+        width: 90%;
     }
 }
