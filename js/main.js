@@ -9,24 +9,24 @@ const dessertOrder = [
     'images/game-pieces/mint-choco.svg', 
     'images/game-pieces/smoothie.svg'
 ];
-const rowOne = [];
-const rowTwo = [];
-const rowThree = [];
-const rowFour = [];
-const rowFive = [];
-const rowSix = [];
-const rowSeven = [];
-const rowEight = [];
-const rowNine = [];
-const columnOne = [];
-const columnTwo = [];
-const columnThree = [];
-const columnFour = [];
-const columnFive = [];
-const columnSix = [];
-const columnSeven = [];
-const columnEight = [];
-const columnNine = [];
+let rowOne = [];
+let rowTwo = [];
+let rowThree = [];
+let rowFour = [];
+let rowFive = [];
+let rowSix = [];
+let rowSeven = [];
+let rowEight = [];
+let rowNine = [];
+let columnOne = [];
+let columnTwo = [];
+let columnThree = [];
+let columnFour = [];
+let columnFive = [];
+let columnSix = [];
+let columnSeven = [];
+let columnEight = [];
+let columnNine = [];
 
 $(document).ready(function() {
     
@@ -251,6 +251,26 @@ $(document).ready(function() {
             // otherwise, check the user's work
             compareArrays();
         }
+
+        // clear the arrays, so the solution can be rechecked
+        rowOne = [];
+        rowTwo = [];
+        rowThree = [];
+        rowFour = [];
+        rowFive = [];
+        rowSix = [];
+        rowSeven = [];
+        rowEight = [];
+        rowNine = [];
+        columnOne = [];
+        columnTwo = [];
+        columnThree = [];
+        columnFour = [];
+        columnFive = [];
+        columnSix = [];
+        columnSeven = [];
+        columnEight = [];
+        columnNine = [];
     });
 
     // when a continue button is clicked
