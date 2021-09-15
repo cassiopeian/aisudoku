@@ -288,6 +288,12 @@ $(document).ready(function() {
         }
     });
 
+    // when the ice-notification animation ends
+    $('img[src="images/aisu-cubes/aisu-cube.svg"]').parent().on('animationend', function() {
+        // remove the ice-notification class
+        $('img[src="images/aisu-cubes/aisu-cube.svg"]').parent().removeClass('ice-notification');
+    });
+
     $('#start-over').on('click', function() {
         // reload the page
         location.reload(true);
