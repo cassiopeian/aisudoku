@@ -281,6 +281,11 @@ $(document).ready(function() {
     $('.continue').on('click', function() {
         // close its modal box
         $(this).parents('section').hide();
+
+        if (iceNotification == true) {
+            // start the ice-notification keyframes animation
+            $('img[src="images/aisu-cubes/aisu-cube.svg"]').parent().addClass('ice-notification');
+        }
     });
 
     $('#start-over').on('click', function() {
