@@ -27,6 +27,7 @@ let columnSix = [];
 let columnSeven = [];
 let columnEight = [];
 let columnNine = [];
+let iceNotification = false;
 
 $(document).ready(function() {
     
@@ -247,6 +248,9 @@ $(document).ready(function() {
         if (iceInGrid.length > 0) {
             // tell the user to complete the puzzle
             $('#incomplete-grid').show();
+
+            // allow the ice-notification animation to be activated 
+            iceNotification = true;
         } else if (iceInGrid.length == 0) {
             // otherwise, check the user's work
             compareArrays();
