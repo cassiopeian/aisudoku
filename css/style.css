@@ -169,6 +169,18 @@ figure {
     animation-name: ice-notification;
     animation-duration: 2s;
 }
+@-webkit-keyframes ice-notification {
+    0%   {background-color: rgb(255, 255, 255);}
+    25%  {background-color: rgb(204, 240, 72);}
+    50%  {background-color: rgb(204, 240, 72);}
+    100% {background-color: rgb(255, 255, 255);}
+}
+@keyframes ice-notification {
+    0%   {background-color: rgb(255, 255, 255);}
+    25%  {background-color: rgb(204, 240, 72);}
+    50%  {background-color: rgb(204, 240, 72);}
+    100% {background-color: rgb(255, 255, 255);}
+}
 
 /* MODAL */
 
