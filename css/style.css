@@ -163,6 +163,12 @@ figure {
     height: 66%;
     cursor: not-allowed;
 }
+.ice-notification {
+    -webkit-animation-name: ice-notification;
+    -webkit-animation-duration: 2s;
+    animation-name: ice-notification;
+    animation-duration: 2s;
+}
 
 /* MODAL */
 
