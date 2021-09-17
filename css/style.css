@@ -332,6 +332,9 @@ footer {
 
     /* PANELS */
 
+    #panels {
+        width: 90%;
+    }
     #menu {
         background-image: url('../images/menu/rectangular-menu.svg');
     }
