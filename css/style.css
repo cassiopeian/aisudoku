@@ -338,6 +338,10 @@ footer {
     #menu {
         background-image: url('../images/menu/rectangular-menu.svg');
     }
+    #menu-title {
+        width: 55%;
+        padding-top: 2.2rem;
+    }
     #selections {
         width: 100%;
         margin: 2rem auto 0;
