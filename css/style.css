@@ -131,6 +131,15 @@ figure {
     width: 90%;
     margin: 1rem auto;
 }
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50px;
+    background-color: #7c97b1;
+}
 #puzzle-number {
     font-family: tomarik-extrovert, sans-serif;
     font-size: 1rem;
