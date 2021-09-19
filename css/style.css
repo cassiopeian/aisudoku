@@ -124,12 +124,19 @@ figure {
 #puzzle-area {
     width: 40%;
 }
+#puzzle-selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
 #puzzle-number {
     font-family: tomarik-extrovert, sans-serif;
     font-size: 1rem;
     color: rgb(156, 177, 196);
     text-align: center;
-    margin: 1rem auto;
+    margin: 0;
 }
 #check-solution {
     color: rgb(204, 245, 253);
