@@ -140,6 +140,11 @@ figure {
     border-radius: 50px;
     background-color: #7c97b1;
 }
+.arrow {
+    font-family: monospace;
+    color: rgb(240, 248, 255);
+    margin: 0;
+}
 #puzzle-number {
     font-family: tomarik-extrovert, sans-serif;
     font-size: 1rem;
