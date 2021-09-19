@@ -124,6 +124,13 @@ figure {
 #puzzle-area {
     width: 40%;
 }
+#puzzle-number {
+    font-family: tomarik-extrovert, sans-serif;
+    font-size: 1rem;
+    color: rgb(156, 177, 196);
+    text-align: center;
+    margin: 1rem auto;
+}
 #check-solution {
     color: rgb(204, 245, 253);
     background-color: rgb(53, 66, 93);
