@@ -353,6 +353,7 @@ footer {
 @media only screen and (max-width: 1050px) and (orientation: portrait) {
     #main-grid {
         width: 75%;
+        margin: 2rem auto;
     }
 }
 
