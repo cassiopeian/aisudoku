@@ -358,9 +358,12 @@ footer {
         background-image: url('../images/menu/rectangular-menu.svg');
         padding: 3rem;
     }
+    #menu-title {
+        padding: 0 0 1rem 0;
+    }
 
     /* GRID */
-    
+
     #main-grid {
         width: 75%;
         margin: 2rem auto;
