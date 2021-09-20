@@ -351,6 +351,16 @@ footer {
 }
 
 @media only screen and (max-width: 1050px) and (orientation: portrait) {
+
+    /* PANELS */
+
+    #menu {
+        background-image: url('../images/menu/rectangular-menu.svg');
+        padding: 3rem;
+    }
+
+    /* GRID */
+    
     #main-grid {
         width: 75%;
         margin: 2rem auto;
