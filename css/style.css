@@ -361,6 +361,9 @@ footer {
     #menu-title {
         padding: 0 0 1rem 0;
     }
+    #selections {
+        margin: 2rem auto 0;
+    }
 
     /* GRID */
 
