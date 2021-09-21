@@ -323,7 +323,7 @@ footer {
     }
     #selections {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 75%;
         height: fit-content !important;
         margin: 2rem auto 1rem;
@@ -365,6 +365,7 @@ footer {
         padding: 0 0 1rem 0;
     }
     #selections {
+        justify-content: space-between;
         margin: 2rem auto 0;
     }
 
