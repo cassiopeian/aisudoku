@@ -350,7 +350,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1050px) and (orientation: portrait) {
+@media only screen and (min-width: 416px) and (max-width: 1050px) and (orientation: portrait) {
 
     /* PANELS */
 
