@@ -321,6 +321,9 @@ footer {
         background-image: url('../images/menu/rectangular-menu.svg');
         padding: .5rem;
     }
+    #menu-title {
+        width: 40%;
+    }
     #selections {
         display: flex;
         justify-content: space-evenly;
@@ -362,6 +365,7 @@ footer {
         padding: 3rem;
     }
     #menu-title {
+        width: 50%;
         padding: 0 0 1rem 0;
     }
     #selections {
