@@ -384,7 +384,7 @@ footer {
         width: 90%;
     }
     #menu {
-        background-image: url('../images/menu/rectangular-menu.svg');
+        padding: 0;
     }
     #menu-title {
         width: 55%;
