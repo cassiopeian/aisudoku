@@ -317,6 +317,10 @@ footer {
         width: 85%;
         margin: 0 auto;
     }
+    #menu {
+        background-image: url('../images/menu/rectangular-menu.svg');
+        padding: .5rem;
+    }
     #selections {
         display: flex;
         justify-content: space-between;
@@ -355,7 +359,6 @@ footer {
     /* PANELS */
 
     #menu {
-        background-image: url('../images/menu/rectangular-menu.svg');
         padding: 3rem;
     }
     #menu-title {
