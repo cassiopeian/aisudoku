@@ -344,6 +344,9 @@ footer {
     #puzzle-area {
         width: 100%;
     }
+    #puzzle-selection {
+        width: 70%;
+    }
 
     /* GRID */
     
