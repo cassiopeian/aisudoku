@@ -376,6 +376,12 @@ footer {
         margin: 2rem auto 0;
     }
 
+    /* PUZZLE AREA */
+
+    #puzzle-selection {
+        width: 90%;
+    }
+
     /* GRID */
 
     #main-grid {
