@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-store">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Aisudoku</title>
+    <link rel="icon" type="image/png" href="images/aisu-cubes/aisu-cube.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/svs5iio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <p>aisudoku</p>
+    </header>
+    <main>
+        <section id="panels">
+            <div id="rules">
+                <h1>A frozen spin on Sudoku</h1>
+                <p><span class="small-caps">To play:</span> Click on an ice cube, and then select a dessert, to populate the grid. Every column, row, and 3 × 3 grid must contain one of each treat.</p>
+            </div>
+            <div id="menu">
+                <img id="menu-title" src="images/menu/menu-title.svg" alt="Dessert Menu" />
+                <div id="selections">
+                    <figure>
+                        <img id="kiwimelon" class="game-pieces" src="images/game-pieces/kiwimelon-pop.svg" alt="Kiwi-Watermelon Popsicle" title="Kiwi-Watermelon Popsicle" />
+                    </figure>
+                    <figure>
+                        <img id="sorbet" class="game-pieces" src="images/game-pieces/mango-sorbet.svg" alt="Mango Sorbet" title="Mango Sorbet" />
+                    </figure>
+                    <figure>
+                        <img id="gelato" class="game-pieces" src="images/game-pieces/berry-gelato.svg" alt="Berry Gelato" title="Berry Gelato" />
+                    </figure>
+                    <figure>
+                        <img id="smoothie" class="game-pieces" src="images/game-pieces/smoothie.svg" alt="Blueberry Smoothie" title="Blueberry Smoothie" />
+                    </figure>
+                    <figure>
+                        <img id="cornetto" class="game-pieces" src="images/game-pieces/cornetto.svg" alt="Cornetto" title="Cornetto" />
+                    </figure>
+                    <figure>
+                        <img id="creamsicle" class="game-pieces" src="images/game-pieces/creamsicle.svg" alt="Creamsicle" title="Creamsicle" />
+                    </figure>
+                    <figure>
+                        <img id="mint-choco" class="game-pieces" src="images/game-pieces/mint-choco.svg" alt="Mint Chocolate Chip" title="Mint Chocolate Chip" />
+                    </figure>
+                    <figure>
+                        <img id="firecracker" class="game-pieces" src="images/game-pieces/firecracker-pop.svg" alt="Firecracker" title="Firecracker" />
+                    </figure>
+                    <figure>
+                        <img id="chipwich-tower" class="game-pieces" src="images/game-pieces/chipwich-tower.svg" alt="Chipwich Tower" title="Chipwich Tower" />
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="puzzle-area">
+            <section id="main-grid">
+                <div class="subgrid">
+                    <div class="row-one column-one" id="a-one">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-one column-two" id="a-two">
+                        <img class="populated-cell" src="images/game-pieces/firecracker-pop.svg" alt="Firecracker" />
+                    </div>
+                    <div class="row-one column-three" id="a-three">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-two column-one" id="a-four">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-two column-two" id="a-five">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-two column-three" id="a-six">
+                        <img class="populated-cell" src="images/game-pieces/mango-sorbet.svg" alt="Mango sorbet" />
+                    </div>
+                    <div class="row-three column-one" id="a-seven">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-three column-two" id="a-eight">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-three column-three" id="a-nine">
+                        <img class="populated-cell" src="images/game-pieces/berry-gelato.svg" alt="Berry gelato" />
+                    </div>
+                </div>
+                <div class="subgrid">
+                    <div class="row-one column-four" id="b-one">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-one column-five" id="b-two">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-one column-six" id="b-three">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-two column-four" id="b-four">
+                        <img class="populated-cell" src="images/game-pieces/smoothie.svg" alt="Blueberry smoothie" />
+                    </div>
+                    <div class="row-two column-five" id="b-five">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-two column-six" id="b-six">
+                        <img class="populated-cell" src="images/game-pieces/berry-gelato.svg" alt="Berry gelato" />
+                    </div>
+                    <div class="row-three column-four" id="b-seven">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                    <div class="row-three column-five" id="b-eight">
+                        <img class="populated-cell" src="images/game-pieces/kiwimelon-pop.svg" alt="Kiwi-watermelon pop" />
+                    </div>
+                    <div class="row-three column-six" id="b-nine">
+                        <img class="aisu-cube" src="images/aisu-cubes/aisu-cube.svg" alt="Ice cube" />
+                    </div>
+                </div>
+            </section>
+            <section id="puzzle-selection">
+                <div class="arrow-container">
+                    <p class="arrow"><</p>
+                </div>
+                <p id="puzzle-number">Puzzle 2</p>
+                <div class="arrow-container">
+                    <p class="arrow">></p>
+                </div>
+            </section>
+            <button id="check-solution" type="button">Check Your Solution</button>
+        </section>
+    </main>
+    <section class="modal" id="incomplete-grid">
+        <div class="popup">
+            <img src="images/aisu-cubes/incognito-aisu.svg" alt="Melting Aisu Cube" />
+            <p>Uh oh! Check the grid for sneaky ice cubes.</p>
+            <div id="button-row">
+                <button class="continue" type="button">Continue</button>
+            </div>
+        </div>
+    </section>
+    <section class="modal" id="winning-solution">
+        <div class="popup">
+            <img src="images/aisu-cubes/chilling-aisu.svg" alt="Melting Aisu Cube" />
+            <p>Congrats, you won! Way to go!</p>
+            <div id="button-row">
+                <button class="continue" type="button">Continue</button>
+            </div>
+        </div>
+    </section>
+    <section class="modal" id="wrong-solution">
+        <div class="popup">
+            <img src="images/aisu-cubes/melting-aisu.png" alt="Melting Aisu Cube" />
+            <p>Hmm, not quite. Check each square carefully.</p>
+            <div id="button-row">
+                <button class="continue" type="button">Keep Trying</button>
+                <button id="start-over" type="button">Start Over</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p id="copyright">&copy; Cassiopeia Neely 2021. All Rights Reserved.</p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
