@@ -395,15 +395,24 @@ footer {
     }
 }
 
+@media only screen and (max-width: 750px) {
+    
+    /* PANELS */
+
+    #menu {
+        padding: 0;
+    }
+    .game-pieces {
+        height: 40px;
+    }
+}
+
 @media only screen and (max-width: 415px) {
 
     /* PANELS */
 
     #panels {
         width: 90%;
-    }
-    #menu {
-        padding: 0;
     }
     #menu-title {
         width: 55%;
@@ -413,9 +422,6 @@ footer {
         width: 100%;
         margin: 1rem auto 0;
         padding: .5rem 1rem 1.75rem 1rem;
-    }
-    .game-pieces {
-        height: 40px;
     }
 
     /* GRID */
