@@ -139,6 +139,8 @@ figure {
     width: 1.5rem;
     border-radius: 50px;
     background-color: #7c97b1;
+    cursor: pointer;
+    text-decoration: none;
 }
 .arrow {
     font-family: monospace;
