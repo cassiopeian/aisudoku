@@ -298,4 +298,7 @@ $(document).ready(function() {
         // reload the page
         location.reload(true);
     });
+
+    // display content after the grid heights have been set
+    $('main').css('visibility', 'visible');
 });
