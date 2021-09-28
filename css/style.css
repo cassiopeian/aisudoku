@@ -54,6 +54,7 @@ main {
 /* PANELS */
 
 #panels {
+    position: relative;
     width: 35%;
 }
 h1 {
