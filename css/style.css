@@ -329,6 +329,9 @@ footer {
         width: 85%;
         margin: 0 auto;
     }
+    #menu-board {
+        width: 65%;
+    }
     #menu {
         background-image: url('../images/menu/rectangular-menu.svg');
         padding: .5rem;
