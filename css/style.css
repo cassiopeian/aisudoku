@@ -404,7 +404,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
 
     /* PANELS */
 
@@ -412,7 +412,7 @@ footer {
         padding: 0;
     }
     .game-pieces {
-        height: 40px;
+        height: 45px;
     }
 }
 
