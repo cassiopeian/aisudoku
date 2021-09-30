@@ -429,6 +429,9 @@ footer {
     #panels {
         width: 90%;
     }
+    #menu-board {
+        width: 100%;
+    }
     #menu-title {
         width: 55%;
         padding-top: 2.2rem;
