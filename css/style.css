@@ -338,6 +338,7 @@ footer {
     }
     #menu-title {
         width: 40%;
+        padding-top: 2rem;
     }
     #selections {
         display: flex;
