@@ -41,23 +41,7 @@ $(document).ready(function() {
     
     setGridHeight();
 
-    function updateMenuBoard() {
-        // at the max-width: 1050px breakpoint
-        if ($(window).width() < 1051) {
-            // replace the square menu with the rectangular one
-            $('#menu-board').attr('src', 'images/menu/rectangular-menu.svg');
-        } else {
-            // otherwise, revert back to the square
-            $('#menu-board').attr('src', 'images/menu/square-menu.svg');
-        }
-    }
-
-    updateMenuBoard();
-
-    $(window).on('resize', function() {
-        setGridHeight();
-        updateMenuBoard();
-    });
+    $(window).on('resize', setGridHeight);
     
     // set the populated cells apart from the others
     $('.populated-cell').parent().css('backgroundColor', 'rgb(240, 248, 255)');
