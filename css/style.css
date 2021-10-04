@@ -90,14 +90,12 @@ h1 {
     padding-top: 3rem;
 }
 #selections {
-    display: grid;
-    grid-template-rows: repeat(3, 33.33%);
-    grid-template-columns: repeat(3, 33.33%);
-    justify-content: center;
-    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 2rem;
     margin: 0 auto;
-    padding: .5rem 1rem 1rem 1rem;
-    width: 70%;
+    height: 7rem;
 }
 figure {
     display: flex;
