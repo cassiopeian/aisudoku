@@ -343,6 +343,7 @@ footer {
         width: 65%;
         height: fit-content !important;
         margin: 1rem auto;
+        padding: 1rem 2rem;
     }
     figure {
         width: fit-content;
