@@ -47,6 +47,10 @@ header p {
     color: rgb(124, 151, 177);
     margin: 1rem 2rem;
 }
+#puzzle-piece {
+    height: 1.5rem;
+    margin: 1rem 2rem;
+}
 
 /* MAIN */
 
