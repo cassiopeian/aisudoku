@@ -36,6 +36,11 @@ button {
 
 /* HEADER */
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 header p {
     font-family: tomarik-extrovert, sans-serif;
     font-size: 2.1rem;
