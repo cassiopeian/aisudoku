@@ -42,6 +42,11 @@ $(document).ready(function() {
     setGridHeight();
 
     $(window).on('resize', setGridHeight);
+
+    // open the puzzle list panel
+    $('#puzzle-piece').on('click', function() {
+        $('nav').animate({right: 0}, 750);
+    });
     
     // set the populated cells apart from the others
     $('.populated-cell').parent().css('backgroundColor', 'rgb(240, 248, 255)');
