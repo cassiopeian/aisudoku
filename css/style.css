@@ -365,7 +365,7 @@ footer {
     nav {
         width: 35%;
     }
-    
+
     /* MAIN */
 
     main {
@@ -473,6 +473,12 @@ footer {
 }
 
 @media only screen and (max-width: 415px) {
+
+    /* HEADER */
+
+    nav {
+        width: 50%;
+    }
 
     /* PANELS */
 
