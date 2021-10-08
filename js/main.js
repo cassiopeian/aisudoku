@@ -41,7 +41,12 @@ $(document).ready(function() {
     
     setGridHeight();
 
-    $(window).on('resize', setGridHeight);
+    $(window).on('resize', function() {
+        setGridHeight();
+
+        // close the puzzle list panel
+        $('nav').removeAttr('style');
+    });
 
     // open the puzzle list panel
     $('#puzzle-piece').on('click', function() {
