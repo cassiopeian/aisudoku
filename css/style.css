@@ -76,6 +76,12 @@ li {
     margin: 1.5rem 0;
     list-style: none;
 }
+li a {
+    font-family: 'tomarik-extrovert';
+    font-size: 1.2rem;
+    color: rgb(240, 248, 255);
+    text-decoration: none;
+}
 
 /* MAIN */
 
