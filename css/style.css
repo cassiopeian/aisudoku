@@ -359,6 +359,13 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1050px) {
+
+    /* HEADER */
+
+    nav {
+        width: 35%;
+    }
+    
     /* MAIN */
 
     main {
