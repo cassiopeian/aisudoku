@@ -392,7 +392,6 @@ footer {
         display: flex;
         justify-content: space-evenly;
         width: 65%;
-        height: fit-content !important;
         margin: .5rem auto 1rem;
         padding: 1rem 2rem;
     }
