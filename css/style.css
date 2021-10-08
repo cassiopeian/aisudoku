@@ -73,6 +73,9 @@ nav {
     color: rgb(240 248 255);
     cursor: pointer;
 }
+ul {
+    margin-top: 3rem;
+}
 li {
     margin: 1.5rem 0;
     list-style: none;
