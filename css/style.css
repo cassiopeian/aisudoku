@@ -116,6 +116,9 @@ h1 {
     text-transform: uppercase;
     color: rgb(156, 177, 196);
 }
+.nbsp {
+    white-space: nowrap;
+}
 #menu-board {
     position: absolute;
     width: 100%;
