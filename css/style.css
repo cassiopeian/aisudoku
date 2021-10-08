@@ -51,6 +51,20 @@ header p {
     height: 1.5rem;
     margin: 1rem 2rem;
 }
+nav {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 100%;
+    width: 40%;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgb(53, 66, 93);
+    border-top: 1rem solid rgb(126, 202, 215);
+    border-left: 1rem solid rgb(126, 202, 215);
+    border-bottom: 1rem solid rgb(126, 202, 215);
+    box-shadow: -2px 3px 4px 1px rgb(137, 141, 151);
+}
 
 /* MAIN */
 
