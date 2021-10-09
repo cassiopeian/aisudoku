@@ -85,6 +85,8 @@ li a {
     font-size: 1.2rem;
     color: rgb(240, 248, 255);
     text-decoration: none;
+    padding: .5rem;
+    border-left: .5rem solid rgb(53, 66, 93);
 }
 
 /* MAIN */
