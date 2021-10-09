@@ -88,6 +88,11 @@ li a {
     padding: .5rem;
     border-left: .5rem solid rgb(53, 66, 93);
 }
+li a:hover {
+    border-left: .5rem solid rgb(232, 245, 103);
+    background-color: rgb(96, 125, 139);
+    color: rgb(135, 247, 228);
+}
 
 /* MAIN */
 
