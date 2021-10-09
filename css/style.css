@@ -73,6 +73,11 @@ nav {
     color: rgb(240, 248, 255);
     cursor: pointer;
 }
+@media(hover:hover) {
+    #close-nav:hover {
+        color: rgb(167, 240, 242);
+    }
+}
 ul {
     margin-top: 3rem;
 }
