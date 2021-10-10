@@ -48,6 +48,15 @@ $(document).ready(function() {
         $('nav').removeAttr('style');
     });
 
+    // nav contents for every puzzle page, so they're always synced
+    $('nav').append(
+        `<div id="close-nav">×</div>
+            <ul>
+                <li><a href="index.html">Puzzle 1</a></li>
+                <li><a href="puzzle-2.html">Puzzle 2</a></li>
+            </ul>`
+    );
+
     // open the puzzle list panel
     $('#puzzle-piece').on('click', function() {
         $('nav').animate({right: 0}, 750);
