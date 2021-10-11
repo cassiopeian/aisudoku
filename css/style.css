@@ -52,6 +52,11 @@ header p {
     margin: 1rem 2rem;
     cursor: pointer;
 }
+@media(hover:hover) {
+    #puzzle-piece:hover {
+        filter: saturate(1.5);
+    }
+}
 nav {
     position: fixed;
     z-index: 3;
