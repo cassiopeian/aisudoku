@@ -70,7 +70,14 @@ $(document).ready(function() {
     // when users click on the word "tips"
     $('#reveal-tips').on('click', function() {
         // the hidden tips will slide down/up
-        $('#hidden-tips').slideToggle(800);
+        $('#hidden-tips').slideToggle(200);
+
+        // toggle the open/close indicator
+        if ($('#accordion-indicator').html() == '+') {
+            $('#accordion-indicator').html('-');
+        } else if ($('#accordion-indicator').html() == '-') {
+            $('#accordion-indicator').html('+');
+        }
     });
     
     // set the populated cells apart from the others
