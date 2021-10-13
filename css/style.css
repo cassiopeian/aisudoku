@@ -138,6 +138,12 @@ h1 {
 .nbsp {
     white-space: nowrap;
 }
+#tips-container {
+    margin-bottom: 2rem;
+}
+#tips-container p {
+    margin: 0;
+}
 #menu-board {
     position: absolute;
     width: 100%;
