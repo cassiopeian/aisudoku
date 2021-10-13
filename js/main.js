@@ -66,6 +66,12 @@ $(document).ready(function() {
     $('#close-nav').on('click', function() {
         $('nav').animate({right: '-100%'}, 750);
     });
+
+    // when users click on the word "tips"
+    $('#reveal-tips').on('click', function() {
+        // the hidden tips will slide down/up
+        $('#hidden-tips').slideToggle(800);
+    });
     
     // set the populated cells apart from the others
     $('.populated-cell').parent().css('backgroundColor', 'rgb(240, 248, 255)');
