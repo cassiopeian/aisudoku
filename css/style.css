@@ -157,10 +157,10 @@ h1 {
 #sprinkles-border {
     display: block;
     border-radius: 50px;
-    height: .3rem;
-    background-color: rgb(247, 235, 217);
-    background-image: url('../images/jimmies-pattern.svg');
-    background-size: 2.3rem;
+    height: .4rem;
+    background-color: rgb(124, 151, 177);
+    background-image: url('../images/polka-dots.svg');
+    background-size: .5rem;
 }
 #menu-board {
     position: absolute;
