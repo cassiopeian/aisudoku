@@ -144,6 +144,16 @@ h1 {
 #tips-container p {
     margin: 0;
 }
+#reveal-tips {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#hidden-tips {
+    display: none;
+    padding: 1rem 0;
+}
 #menu-board {
     position: absolute;
     width: 100%;
