@@ -154,6 +154,14 @@ h1 {
     display: none;
     padding: 1rem 0;
 }
+#sprinkles-border {
+    display: block;
+    border-radius: 50px;
+    height: .3rem;
+    background-color: rgb(247, 235, 217);
+    background-image: url('../images/jimmies-pattern.svg');
+    background-size: 2.3rem;
+}
 #menu-board {
     position: absolute;
     width: 100%;
