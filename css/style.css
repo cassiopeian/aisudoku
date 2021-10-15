@@ -557,6 +557,7 @@ footer {
 
     #main-grid {
         width: 90%;
+        margin: .25rem auto 1rem;
     }
 
     /* MODAL */
