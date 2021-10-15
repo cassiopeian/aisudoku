@@ -40,6 +40,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 1rem 2rem;
 }
 header a,
 header a:visited {
@@ -47,11 +48,9 @@ header a:visited {
     font-size: 2.1rem;
     color: rgb(124, 151, 177);
     text-decoration: none;
-    margin: 1rem 2rem;
 }
 #puzzle-piece {
     height: 1.5rem;
-    margin: 1rem 2rem;
     cursor: pointer;
 }
 @media(hover:hover) {
