@@ -531,6 +531,9 @@ footer {
     nav {
         width: 50%;
     }
+    ul {
+        padding: 0 .5rem;
+    }
 
     /* PANELS */
 
