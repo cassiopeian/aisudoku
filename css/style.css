@@ -167,6 +167,9 @@ td {
 #light-blue {
     background-color: rgb(240, 248, 255);
 }
+#indigo {
+    background-color: rgb(82, 106, 156);
+}
 #sprinkles-border {
     display: block;
     border-radius: 50px;
