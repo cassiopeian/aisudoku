@@ -159,6 +159,11 @@ h2 {
     color: rgb(53, 66, 93);
     text-transform: uppercase;
 }
+td {
+    font-family: tomarik-extrovert, sans-serif;
+    font-size: .9rem;
+    padding: .5rem;
+}
 #sprinkles-border {
     display: block;
     border-radius: 50px;
