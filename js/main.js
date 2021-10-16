@@ -70,7 +70,7 @@ $(document).ready(function() {
     // when users click on the word "tips"
     $('#reveal-tips').on('click', function() {
         // the hidden tips will slide down/up
-        $('#hidden-tips').slideToggle(200);
+        $('#hidden-tips').slideToggle(750);
 
         // toggle the open/close indicator
         if ($('#accordion-indicator').html() == '+') {
