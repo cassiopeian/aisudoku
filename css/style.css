@@ -170,6 +170,10 @@ td {
 #indigo {
     background-color: rgb(82, 106, 156);
 }
+#red-green {
+    background-image: linear-gradient(
+45deg, rgb(230, 163, 172) 50%, rgb(224, 243, 237) 50%);
+}
 #sprinkles-border {
     display: block;
     border-radius: 50px;
