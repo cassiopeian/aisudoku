@@ -25,13 +25,23 @@ p {
 }
 button {
     display: block;
-    font-family: tomarik-extrovert, sans-serif;
     font-size: .9rem;
     text-transform: uppercase;
     padding: .5rem 1.5rem;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+}
+
+/* FONTS */
+
+button,
+header a,
+li a,
+td,
+#puzzle-number,
+#copyright {
+    font-family: tomarik-extrovert, sans-serif;
 }
 
 /* HEADER */
@@ -44,7 +54,6 @@ header {
 }
 header a,
 header a:visited {
-    font-family: tomarik-extrovert, sans-serif;
     font-size: 2.1rem;
     color: rgb(124, 151, 177);
     text-decoration: none;
@@ -92,7 +101,6 @@ li {
     list-style: none;
 }
 li a {
-    font-family: 'tomarik-extrovert';
     font-size: 1.2rem;
     color: rgb(240, 248, 255);
     text-decoration: none;
@@ -160,7 +168,6 @@ h2 {
     text-transform: uppercase;
 }
 td {
-    font-family: tomarik-extrovert, sans-serif;
     font-size: .9rem;
     padding: .5rem;
 }
@@ -271,7 +278,6 @@ figure {
     margin: 0;
 }
 #puzzle-number {
-    font-family: tomarik-extrovert, sans-serif;
     font-size: 1rem;
     color: rgb(156, 177, 196);
     text-align: center;
@@ -421,7 +427,6 @@ footer {
     padding: 1rem 2rem;
 }
 #copyright {
-    font-family: tomarik-extrovert, sans-serif;
     font-size: .8rem;
     color: rgb(245, 245, 245);
     margin: 0;
