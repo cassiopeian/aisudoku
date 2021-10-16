@@ -151,7 +151,7 @@ h1 {
 }
 #hidden-tips {
     display: none;
-    padding: 1rem 0;
+    padding-bottom: 1rem;
 }
 h2 {
     font-family: 'Jua', sans-serif;
