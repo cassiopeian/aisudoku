@@ -153,6 +153,12 @@ h1 {
     display: none;
     padding: 1rem 0;
 }
+h2 {
+    font-family: 'Jua', sans-serif;
+    font-size: 1rem;
+    color: rgb(53, 66, 93);
+    text-transform: uppercase;
+}
 #sprinkles-border {
     display: block;
     border-radius: 50px;
