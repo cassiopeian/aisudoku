@@ -164,6 +164,9 @@ td {
     font-size: .9rem;
     padding: .5rem;
 }
+#light-blue {
+    background-color: rgb(240, 248, 255);
+}
 #sprinkles-border {
     display: block;
     border-radius: 50px;
