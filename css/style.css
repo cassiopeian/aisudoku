@@ -547,7 +547,7 @@ footer {
     /* HEADER */
 
     header {
-        margin: 1rem 5%;
+        margin: .5rem 5% 1rem 5%;
     }
     nav {
         width: 50%;
