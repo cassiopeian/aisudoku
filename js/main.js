@@ -109,8 +109,8 @@ $(document).ready(function() {
             // replace the active div's child img w/ the game piece
             $('.active').children().attr('src', `${gamePiece}`).css({'opacity': '1', 'height': '66%'});
     
-            // tag the cube as populated and strip its active status 
-            $('.active').addClass('no-aisu').removeClass('active');
+            // remove red/green cell color, tag the cube as populated, and strip its active status 
+            $('.active').css('backgroundColor', 'rgb(255, 255, 255)').addClass('no-aisu').removeClass('active');
         }
     });
 
