@@ -83,7 +83,10 @@ $(document).ready(function() {
     // set the populated cells apart from the others
     $('.populated-cell').parent().css('backgroundColor', 'rgb(240, 248, 255)');
 
-    $('.aisu-cube').on('click', function() {
+    $('.aisu-cube').on('click', function(event) {
+        // prevent cell's user-set color from changing
+        event.stopPropagation();
+
         // if the parent div is already active
         if ($(this).parent().hasClass('active')) {
             // remove the active class
