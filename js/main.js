@@ -54,6 +54,7 @@ $(document).ready(function() {
             <ul>
                 <li><a href="index.html">Puzzle 1</a></li>
                 <li><a href="puzzle-2.html">Puzzle 2</a></li>
+                <li><a href="puzzle-3.html">Puzzle 3</a></li>
             </ul>`
     );
 
