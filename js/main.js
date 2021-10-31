@@ -32,11 +32,13 @@ let iceNotification = false;
 $(document).ready(function() {
     
     function setGridHeight() {
-        // get the total width of a grid
+        // get an element's width or height
         let mainGridWidth = $('#main-grid').css('width');
+        let figureHeight = $('figure').height();
     
-        // and set its height equal to its width 
+        // and set square dimensions 
         $('#main-grid').css('height', mainGridWidth);
+        $('figure').css('width', figureHeight);
     };
     
     setGridHeight();
