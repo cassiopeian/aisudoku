@@ -157,6 +157,11 @@ h1 {
     justify-content: space-between;
     cursor: pointer;
 }
+@media(hover:hover) {
+    #reveal-tips:hover {
+        color: rgb(94, 127, 156);
+    }
+}
 #hidden-tips {
     display: none;
     padding-bottom: 1rem;
