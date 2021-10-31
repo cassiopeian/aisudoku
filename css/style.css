@@ -217,7 +217,8 @@ td {
 }
 figure {
     display: flex;
-    margin: 0;
+    justify-content: center;
+    margin: 0 auto;
 }
 .game-pieces {
     height: 100%;
