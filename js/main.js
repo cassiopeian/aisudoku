@@ -31,7 +31,7 @@ let iceNotification = false;
 
 $(document).ready(function() {
     
-    function setGridHeight() {
+    function setSquareDimensions() {
         // get an element's width or height
         let mainGridWidth = $('#main-grid').css('width');
         let figureHeight = $('figure').height();
@@ -41,10 +41,10 @@ $(document).ready(function() {
         $('figure').css('width', figureHeight);
     };
     
-    setGridHeight();
+    setSquareDimensions();
 
     $(window).on('resize', function() {
-        setGridHeight();
+        setSquareDimensions();
 
         // close the puzzle list panel
         $('nav').removeAttr('style');
