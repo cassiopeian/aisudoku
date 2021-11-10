@@ -1,4 +1,9 @@
 # Aisudoku
+
+## Table of Contents
+
+ + [Introduction](#introduction)
+ + [Tech Specs](#tech-specs)
  
 ## Introduction 
 
