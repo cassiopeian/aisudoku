@@ -19,6 +19,10 @@
 
  Use the arrows under the grid, to navigate from one puzzle to the next. Otherwise, click the grinning puzzle piece at the top of the page, to open a menu.
 
+ <img src="images/read-me/color-tips.png" style="width: 75%">
+
+ Expand the Tips menu, for a rundown on the way you can use color to make notes for yourself (e.g., in the screenshot, above, the green cell is correct, the red cell denotes a mistake, and the indigo cell is currently selected).
+
 ## Favicon
  
  <img src="images/aisu-cubes/aisu-cube.svg" style="width: 25%">
