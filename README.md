@@ -23,6 +23,10 @@
 
  Expand the Tips menu, for a rundown on the way you can use color to make notes for yourself (e.g., in the screenshot, above, the green cell is correct, the red cell denotes a mistake, and the indigo cell is currently selected).
 
+ <img src="images/read-me/sneaky-cubes.png" style="width: 50%"><img src="images/read-me/empty-cells.png" style="width: 50%">
+
+The *Check Your Solution* button will let you know whether you’ve solved the puzzle correctly. If you’ve accidentally left an ice cube in a cell, you’ll receive a notification. Once you click *Continue*, the missed cell (or cells) will glow.
+
 ## Favicon
  
  <img src="images/aisu-cubes/aisu-cube.svg" style="width: 25%">
