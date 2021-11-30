@@ -4,6 +4,7 @@
 
  + [Introduction](#introduction)
  + [Features](#features)
+    - [Multiple Puzzles](#multiple-puzzles)
  + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
