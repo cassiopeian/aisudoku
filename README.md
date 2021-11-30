@@ -6,6 +6,7 @@
  + [Features](#features)
     - [Multiple Puzzles](#multiple-puzzles)
     - [Use Color to Mark Guesses](#use-color-to-mark-guesses)
+    - [See Overlooked Cells](#see-overlooked-cells)
  + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
