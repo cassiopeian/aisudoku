@@ -5,6 +5,7 @@
  + [Introduction](#introduction)
  + [Features](#features)
     - [Multiple Puzzles](#multiple-puzzles)
+    - [Use Color to Mark Guesses](#use-color-to-mark-guesses)
  + [Favicon](#favicon)
  + [Tech Specs](#tech-specs)
  
