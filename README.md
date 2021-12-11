@@ -8,6 +8,7 @@
     - [Use Color to Mark Guesses](#use-color-to-mark-guesses)
     - [See Overlooked Cells](#see-overlooked-cells)
  + [Favicon](#favicon)
+ + [Inspiration](#inspiration)
  + [Tech Specs](#tech-specs)
  
 ## Introduction 
