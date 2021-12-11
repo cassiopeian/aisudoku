@@ -42,6 +42,12 @@
 
  Aisu (Japanese for *ice*) is the Aisudoku mascot. He keeps the grid cells cool, so they can be filled with frozen treats, and he livens up your browser tab.
 
+## Inspiration
+
+ My goal was to create a colorful version of Sudoku, so I considered objects like flowers and teacups before settling on ice cream. I designed three popsicles, three cones, and three miscellaneous frozen treats—each with their own distinct color palette—to ensure that there would be nine unique game pieces. 
+
+ The word *sudoku* is a portmanteau of the Japanese words *sūji* (numbers) and *dokushin* (single), so I was thrilled to learn that the Japanese word for *ice*, when used to mean *dessert*, is *aisu*.
+
 ## Tech Specs
 
  Aisudoku was built with jQuery version 3.4.1.
