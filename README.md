@@ -9,6 +9,7 @@
     - [See Overlooked Cells](#see-overlooked-cells)
  + [Favicon](#favicon)
  + [Inspiration](#inspiration)
+ + [Puzzle Credit](#puzzle-credit)
  + [Tech Specs](#tech-specs)
  
 ## Introduction 
