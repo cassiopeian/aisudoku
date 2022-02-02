@@ -93,6 +93,14 @@ nav {
         color: rgb(167, 240, 242);
     }
 }
+h3 {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(126, 202, 215);
+    margin: 4rem 0 2rem 0;
+}
 ul {
     margin-top: 3rem;
 }
