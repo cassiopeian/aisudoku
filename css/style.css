@@ -35,6 +35,11 @@ button {
 
 /* FONTS */
 
+h1,
+h2,
+h3 {
+    font-family: 'Jua', sans-serif;
+}
 button,
 header a,
 li a,
@@ -136,7 +141,6 @@ main {
     width: 35%;
 }
 h1 {
-    font-family: 'Jua', sans-serif;
     font-size: 1.6rem;
     color: rgb(53, 66, 93);
 }
@@ -175,7 +179,6 @@ h1 {
     padding-bottom: 1rem;
 }
 h2 {
-    font-family: 'Jua', sans-serif;
     font-size: 1rem;
     color: rgb(53, 66, 93);
     text-transform: uppercase;
