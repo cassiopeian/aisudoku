@@ -67,7 +67,7 @@ header a:visited {
     height: 1.5rem;
     cursor: pointer;
 }
-@media(hover:hover) {
+@media (hover: hover) {
     #puzzle-piece:hover {
         filter: saturate(1.5);
     }
@@ -93,7 +93,7 @@ nav {
     color: rgb(240, 248, 255);
     cursor: pointer;
 }
-@media(hover:hover) {
+@media (hover: hover) {
     #close-nav:hover {
         color: rgb(167, 240, 242);
     }
@@ -169,7 +169,7 @@ h1 {
     justify-content: space-between;
     cursor: pointer;
 }
-@media(hover:hover) {
+@media (hover: hover) {
     #reveal-tips:hover {
         color: rgb(94, 127, 156);
     }
@@ -306,7 +306,7 @@ figure {
     background-color: rgb(53, 66, 93);
     margin: 1rem auto 2rem;
 }
-@media(hover:hover) {
+@media (hover: hover) {
     #check-solution:hover {
         background-image: linear-gradient(175deg, rgb(56, 84, 142), rgb(89, 113, 162));
     }
@@ -345,7 +345,7 @@ figure {
     opacity: .65;
     cursor: pointer;
 }
-@media (hover:hover) {
+@media (hover: hover) {
     .aisu-cube:hover {
         opacity: 1;
     }
@@ -430,7 +430,7 @@ figure {
     background-color: rgb(247, 251, 252);
     color: rgb(53, 66, 93);
 }
-@media(hover:hover) {
+@media (hover: hover) {
     #button-row button:hover {
         background-image: linear-gradient(175deg, rgb(119, 209, 224), rgb(167, 240, 242));
     }
