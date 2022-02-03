@@ -105,11 +105,10 @@ nav {
 }
 h3 {
     font-size: 1.2rem;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
+    letter-spacing: .25rem;
     text-align: center;
-    color: rgb(126, 202, 215);
-    margin: 4rem 0 2rem 0;
+    color: rgb(135, 247, 228);
+    margin: 2rem 0;
 }
 ul {
     margin-top: 3rem;
