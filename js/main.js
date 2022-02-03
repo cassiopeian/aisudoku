@@ -53,7 +53,7 @@ $(document).ready(function() {
     // nav contents for every puzzle page, so they're always synced
     $('nav').append(
         `<div id="close-nav">×</div>
-        <img id="mochi-love" src="images/aisu-cubes/aisu-loves-mochi">
+        <img id="mochi-love" src="images/aisu-cubes/aisu-loves-mochi.svg">
         <h3>Choose a Puzzle</h3>
         <ul>
             <li><a href="index.html">Puzzle 1</a></li>
