@@ -235,7 +235,7 @@ td {
     margin: 0 auto;
     height: 7rem;
 }
-figure {
+#selections div {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -498,7 +498,7 @@ footer {
         margin: .5rem auto 1rem;
         padding: 1rem 2rem;
     }
-    figure {
+    #selections div {
         width: fit-content;
         margin: 5px;
     }
