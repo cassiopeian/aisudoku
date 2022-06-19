@@ -34,11 +34,11 @@ $(document).ready(function() {
     function setSquareDimensions() {
         // get an element's width or height
         let mainGridWidth = $('#main-grid').css('width');
-        let figureHeight = $('figure').height();
+        let figureHeight = $('#selections div').height();
     
         // and set square dimensions 
         $('#main-grid').css('height', mainGridWidth);
-        $('figure').css('width', figureHeight);
+        $('#selections div').css('width', figureHeight);
     };
     
     setSquareDimensions();
