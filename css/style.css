@@ -244,11 +244,6 @@ td {
     height: 100%;
     cursor: pointer;
 }
-@media (hover: hover) {
-    .game-pieces:hover {
-        height: 110%;
-    }
-}
 @-webkit-keyframes dessert-dance {
     0% {transform: rotate(0deg);}
     50% {transform: rotate(5deg); filter: saturate(1.2);}
