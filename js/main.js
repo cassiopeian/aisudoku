@@ -101,6 +101,19 @@ $(document).ready(function() {
             $(this).parent().addClass('active');
         }
     });
+
+    $('.game-pieces').hover(
+        function() {
+            let gamePieceHeight = $('.game-pieces').height();
+            let expandedHeight = gamePieceHeight + 5;
+
+            // temporarily add 5px to the current height
+            $(this).css('height', `${expandedHeight}px`);
+        }, function() {
+            // remove the temporary height; keep the one set in the stylesheet
+            $(this).removeAttr('style', 'height');
+        }
+    );
     
     $('.game-pieces').on('click', function() {
         // log the source of the selected game piece
