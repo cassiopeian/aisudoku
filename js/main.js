@@ -130,6 +130,19 @@ $(document).ready(function() {
             // remove red/green cell color, tag the cube as populated, and strip its active status 
             $('.active').css('backgroundColor', 'rgb(255, 255, 255)').addClass('no-aisu').removeClass('active');
         }
+
+
+        // IN PROGRESS --- disable game pieces after nine uses
+        console.log($('#main-grid img').length);
+
+        // loop through the dessert img srcs
+        dessertOrder.forEach(dessert => {
+            // if a dessert appears nine times in the main grid
+            if ($('#main-grid img[src="' + dessert + '"]').length === 9) {
+                // log it to the console
+                console.log('You used nine of these');
+            }
+        });
     });
 
     $('.game-pieces').on('animationend', function() {
