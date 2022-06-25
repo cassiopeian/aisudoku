@@ -141,6 +141,12 @@ $(document).ready(function() {
             if ($('#main-grid img[src="' + dessert + '"]').length === 9) {
                 // log it to the console
                 console.log('You used nine of these');
+
+                // desaturate the dessert, in the menu
+                $('.game-pieces[src="' + dessert + '"]').addClass('disabled-dessert');
+            } else {
+                // saturate the dessert
+                $('.game-pieces[src="' + dessert + '"]').removeClass('disabled-dessert');
             }
         });
     });
