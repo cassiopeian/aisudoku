@@ -244,6 +244,11 @@ td {
     height: 100%;
     cursor: pointer;
 }
+.disabled-dessert {
+    filter: saturate(.2);
+    opacity: .7;
+    cursor: not-allowed;
+}
 @-webkit-keyframes dessert-dance {
     0% {transform: rotate(0deg);}
     50% {transform: rotate(5deg); filter: saturate(1.2);}
