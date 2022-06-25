@@ -137,11 +137,8 @@ $(document).ready(function() {
 
         // loop through the dessert img srcs
         dessertOrder.forEach(dessert => {
-            // if a dessert appears nine times in the main grid
-            if ($('#main-grid img[src="' + dessert + '"]').length === 9) {
-                // log it to the console
-                console.log('You used nine of these');
-
+            // if a dessert appears at least nine times in the main grid
+            if ($('#main-grid img[src="' + dessert + '"]').length >= 9) {
                 // desaturate the dessert, in the menu
                 $('.game-pieces[src="' + dessert + '"]').addClass('disabled-dessert');
             } else {
