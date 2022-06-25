@@ -131,10 +131,6 @@ $(document).ready(function() {
             $('.active').css('backgroundColor', 'rgb(255, 255, 255)').addClass('no-aisu').removeClass('active');
         }
 
-
-        // IN PROGRESS --- disable game pieces after nine uses
-        console.log($('#main-grid img').length);
-
         // loop through the dessert img srcs
         dessertOrder.forEach(dessert => {
             // if a dessert appears at least nine times in the main grid
