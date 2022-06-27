@@ -32,6 +32,12 @@
 
  Expand the Tips menu, for a rundown on the way you can use color to make notes for yourself (e.g., in the screenshot, above, the green cell is correct, the red cell denotes a mistake, and the indigo cell is currently selected).
 
+ ### Focus on Possibilities
+
+ <img src="images/read-me/nine-notification.png" style="width: 75%">
+
+ When you’ve used a dessert nine times, its color will fade in the Dessert Menu, so you don’t have to keep track of the number of times you deploy each treat.
+
  ### See Overlooked Cells
  
  <img src="images/read-me/sneaky-cubes.png" style="width: 50%"><img src="images/read-me/empty-cells.png" style="width: 50%">
