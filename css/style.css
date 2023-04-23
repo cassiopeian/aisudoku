@@ -1,4 +1,18 @@
-/* GLOBAL */
+/* ----------------
+STYLE SECTIONS
+1. GLOBAL
+2. FONTS
+3. HEADER
+4. MAIN
+5. PANELS
+6. PUZZLE AREA
+7. GRID
+8. MODAL
+9. FOOTER
+10. MEDIA QUERIES
+---------------- */
+
+/* 1. GLOBAL */
 
 html {
     font-size: 16px;
@@ -33,7 +47,7 @@ button {
     cursor: pointer;
 }
 
-/* FONTS */
+/* 2. FONTS */
 
 h1,
 h2,
@@ -49,7 +63,7 @@ td,
     font-family: tomarik-extrovert, sans-serif;
 }
 
-/* HEADER */
+/* 3. HEADER */
 
 header {
     display: flex;
@@ -130,7 +144,7 @@ li a:hover {
     color: rgb(135, 247, 228);
 }
 
-/* MAIN */
+/* 4. MAIN */
 
 main {
     display: flex;
@@ -138,7 +152,7 @@ main {
     visibility: hidden;
 }
 
-/* PANELS */
+/* 5. PANELS */
 
 #panels {
     position: relative;
@@ -266,7 +280,7 @@ td {
     animation-duration: .5s;
 }
 
-/* PUZZLE AREA */
+/* 6. PUZZLE AREA */
 
 #puzzle-area {
     position: relative;
@@ -321,7 +335,7 @@ td {
     }
 }
 
-/* GRID */
+/* 7. GRID */
 
 #main-grid,
 .subgrid {
@@ -385,7 +399,7 @@ td {
     100% {background-color: rgb(255, 255, 255);}
 }
 
-/* MODAL */
+/* 8. MODAL */
 
 .modal {
     display: none;
@@ -445,7 +459,7 @@ td {
     }
 }
 
-/* FOOTER */
+/* 9. FOOTER */
 
 footer {
     width: 100%;
@@ -459,7 +473,7 @@ footer {
     margin: 0;
 }
 
-/* MEDIA QUERIES */
+/* 10. MEDIA QUERIES */
 
 @media only screen and (max-width: 1050px) {
 
