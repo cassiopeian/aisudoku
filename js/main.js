@@ -369,4 +369,7 @@ $(document).ready(function() {
 
     // display content after the grid heights have been set
     $('main').css('visibility', 'visible');
+
+    // set copyright year
+    $('#copyright-year').html(new Date().getFullYear());
 });
